@@ -1,4 +1,5 @@
-var io = require('socket.io').listen(process.env.PORT || 5000);
+var port = Number(process.env.PORT || 5000);
+var io = require('socket.io').listen(port);
 
 //type 0 : connection
 //status 0 : pending, 1: geting ready
