@@ -1,0 +1,12 @@
+.timer{
+		position:relative;
+		margin:200px auto;
+		overflow: hidden;
+		width:250px;
+		height:250px;
+	}
+#CountDownTimer{
+	position:absolute;
+	top:0;
+	right:0;
+}

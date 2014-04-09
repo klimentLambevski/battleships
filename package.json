@@ -4,7 +4,8 @@
   "description": "Game for every generation",
   "main": "server.js",
   "dependencies": {
-    "socket.io": "^0.9.16"
+    "socket.io": "^0.9.16",
+    "express": "^3.5.1"
   },
   "devDependencies": {},
   "scripts": {
