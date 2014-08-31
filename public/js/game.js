@@ -1,7 +1,7 @@
 var game={
 	socket:null,
 	globals:{
-		uri:"ws://obscure-harbor-2092.herokuapp.com",
+		uri:"ws:localhost:5000",
 		port:1337,
 		name:'Player',
 		t:null,
