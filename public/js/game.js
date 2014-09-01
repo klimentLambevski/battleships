@@ -59,7 +59,7 @@ var game={
 
 		game.globals.t = setTimeout(function(){
 			console.log("DECLINED");
-			game.socket.emit("discart game",{});
+            game.socket.emit("discart game",{});
             //TODO add js class
 			$(".player_list_container").slideDown();
 			$(".js_timer_container").hide();
@@ -98,7 +98,14 @@ var game={
         $(".js_accept_request").click(function() {
             $(".js_request_container").slideUp();
             game.acceptGame(1);
-        })
+            clearTimeout(timeout);
+        });
+
+        var timeout = setTimeout(function(){
+            console.log("DECLINED");
+            //TODO add js class
+            $(".js_request_container").hide();
+        },14000)
 
 	},
 	//se prifaka igra

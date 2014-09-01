@@ -30,7 +30,7 @@ Board.state.available_boats = [
     {
         data: {
             orientation: 2,
-            size: 2
+            size: 3
         },
         spawned: 0
     },
